@@ -3,19 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!--Шапка сайта-->
     <header>
-      <a href="./index.html">WebStudio</a>
-      <ul>
-        <li><a href="./index.html">Студия</a></li>
-        <li><a href="./portfolio.html">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
+      <a href="./index.html" class="logo-web">Web<span class="logo">Studio</span></a>
+      <ul class="site-nav list">
+        <li><a href="./index.html" class="link">Студия</a></li>
+        <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
+        <li><a href="" class="link">Контакты</a></li>
       </ul>
-      <ul>
+      <ul class="contacts-nav list">
         <li>
           <a href="mailto:info@example.com">info@devstudio.com</a>
         </li>
@@ -28,12 +29,13 @@
     <main>
       <!-- Фильтр -->
       <section>
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <h1 hidden>Портфолио</h1>
+        <ul class="list">
+          <li><button type="button" class="btn-filter">Все</button></li>
+          <li><button type="button" class="btn-filter">Веб-сайты</button></li>
+          <li><button type="button" class="btn-filter">Приложения</button></li>
+          <li><button type="button" class="btn-filter">Дизайн</button></li>
+          <li><button type="button" class="btn-filter">Маркетинг</button></li>
         </ul>
       </section>
 
@@ -41,49 +43,67 @@
       <section>
           <ul>
               <li>
+                <a href="">
                   <img src="./image/card/pic.jpg" width="370" alt="Ноутбук и лица">
-                  <h3>Технокряк</h3>
-                  <p>Веб-сайт</p>
+                  <h2 class="card-title">Технокряк</h2>
+                  <p class="card-desc">Веб-сайт</p>
+                </a>
               </li>
               <li>
+                <a href="">
                   <img src="./image/card/pic1.jpg" width="370" alt="Баскетбол">
-                  <h3>Постер New Orlean vs Golden Star</h3>
-                  <p>Дизайн</p>
+                  <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="card-desc">Дизайн</p>
+                </a>
               </li>
               <li>
+                <a href="">
                   <img src="./image/card/pic2.jpg" width="370" alt="Рыба">
-                  <h3>Ресторан Seafood</h3>
-                  <p>Приложение</p>
+                  <h2 class="card-title">Ресторан Seafood</h2>
+                  <p class="card-desc">Приложение</p>
+                </a>
               </li>
               <li>
+                <a href="">
                   <img src="./image/card/pic3.jpg" width="370" alt="Наушники">
-                  <h3>Проект Prime</h3>
-                  <p>Маркетинг</p>
+                  <h2 class="card-title">Проект Prime</h2>
+                  <p class="card-desc">Маркетинг</p>
+                </a>
               </li>
               <li>
+                <a href="">
                   <img src="./image/card/pic4.jpg" width="370" alt="Коробки">
-                  <h3>Проект Boxes</h3>
-                  <p>Приложение</p>
+                  <h2 class="card-title">Проект Boxes</h2>
+                  <p class="card-desc">Приложение</p>
+                </a>
               </li>
               <li>
+                <a href="">
                   <img src="./image/card/pic5.jpg" width="370" alt="Монитор">
-                  <h3>Inspiration has no Borders</h3>
-                  <p>Веб-сайт</p>
+                  <h2 class="card-title">Inspiration has no Borders</h2>
+                  <p class="card-desc">Веб-сайт</p>
+                </a>
               </li>
               <li>
+                <a href="">
                   <img src="./image/card/pic6.jpg" width="370" alt="Книга">
-                  <h3>Издание Limited Edition</h3>
-                  <p>Дизайн</p>
+                  <h2 class="card-title">Издание Limited Edition</h2>
+                  <p class="card-desc">Дизайн</p>
+                </a>
               </li>
               <li>
+                <a href="">
                   <img src="./image/card/pic7.jpg" width="370" alt="Жетон">
-                  <h3>Проект LAB</h3>
-                  <p>Маркетинг</p>
+                  <h2 class="card-title">Проект LAB</h2>
+                  <p class="card-desc">Маркетинг</p>
+                </a>
               </li>
               <li>
+                <a href="">
                   <img src="./image/card/pic8.jpg" width="370" alt="Ноутбук">
-                  <h3>Growing Business</h3>
-                  <p>Приложение</p>
+                  <h2 class="card-title">Growing Business</h2>
+                  <p class="card-desc">Приложение</p>
+                </a>
               </li>
           </ul>
       </section>
@@ -92,12 +112,12 @@
     <!--Футер-->
     <footer>
       <div>
-        <a href="./index.html">WebStudio</a>
+        <a href="./index.html"  class="logo-web">Web<span class="footer-logo">Studio</span></a>
         <address>
           <ul>
-            <li><a href="">г.Киев, пр-т Леси Украинки, 26</a></li>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+            <li><a href="" class="footer-link">г.Киев, пр-т Леси Украинки, 26</a></li>
+            <li><a href="mailto:info@example.com" class="footer-contacts">info@example.com</a></li>
+            <li><a href="tel:+380991111111" class="footer-contacts">+38 099 111 11 11</a></li>
           </ul>
         </address>
       </div>

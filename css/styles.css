@@ -80,3 +80,25 @@ body {
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
 }
+
+
+/* Portfolio filter */
+.btn-filter {
+  color: var(--title-text-color);
+  background-color:  #F5F4FA;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+  color: var(--primary-widht-color);
+  background-color: var(--accent-color);
+}
+
+/* Card */
+.card-title {
+  color: var(--title-text-color);
+}
+
+.card-desc {
+  color: var(--primary-text-color);
+}
