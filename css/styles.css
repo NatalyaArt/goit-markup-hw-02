@@ -163,7 +163,6 @@ body {
   text-decoration: none;
 }
 
-
 /* Portfolio filter */
 .btn-filter {
   color: var(--title-text-color);
@@ -184,9 +183,9 @@ body {
 }
 
 /* Card */
-.card a{
+.card a {
   text-decoration: none;
-} 
+}
 
 .card-title {
   color: var(--title-text-color);
@@ -205,5 +204,3 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-
-
